@@ -15,3 +15,6 @@ git commit <ARQUVO || -a> -m <MENSAGEM>
 
 # Enviar os arquivos
 git push
+
+# Receber atualizações do GitHub
+git pull
