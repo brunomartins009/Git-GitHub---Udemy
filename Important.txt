@@ -21,3 +21,12 @@ git pull
 
 # Remover arquivos do git
 git rm
+
+# Acessar os logs de um projeto
+git log
+
+# Renomeando arquivos ou movendo arquivos
+git mv <ARQUVO ANTIGO> <ARQUVO NOVO || LOCAL ONDE QUER MOVER>
+
+# Desfazendo alterações
+git checkout
