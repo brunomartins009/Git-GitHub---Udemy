@@ -1,0 +1,14 @@
+# Criar um repositório
+git init
+
+# Verificar arquivos modificados, novos e etc
+git status
+
+# Remover origin
+git remove rm origin
+
+# Adicionar arquivos a serem comitados (o '.' adiciona todos os arquivos)
+git add <ARQUVO> || .
+
+# Fazer um commit (Flag: -a; comitar varios arquivos de uma vez)
+git commit <ARQUVO || -a> -m <MENSAGEM>
