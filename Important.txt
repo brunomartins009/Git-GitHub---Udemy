@@ -30,3 +30,6 @@ git mv <ARQUVO ANTIGO> <ARQUVO NOVO || LOCAL ONDE QUER MOVER>
 
 # Desfazendo alterações
 git checkout
+
+# Ignorar arquivos
+criar um .gitignore
