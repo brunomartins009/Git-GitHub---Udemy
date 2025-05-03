@@ -1,4 +1,4 @@
-### 🗂️ Git-GitHub---Udemy
+# 🗂️ Git-GitHub---Udemy
 This repository contains all the materials, exercises, and examples I worked on as a student during a Git and GitHub course.
 
 ## 📘 About the Course
