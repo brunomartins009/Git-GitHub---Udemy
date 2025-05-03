@@ -33,3 +33,6 @@ git checkout
 
 # Ignorar arquivos
 criar um .gitignore
+
+# Resetar todas as mudanças feitas (Geralmente se usa a flag --hard)
+git reset
