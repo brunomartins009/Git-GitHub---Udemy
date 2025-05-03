@@ -12,3 +12,6 @@ git add <ARQUVO> || .
 
 # Fazer um commit (Flag: -a; comitar varios arquivos de uma vez)
 git commit <ARQUVO || -a> -m <MENSAGEM>
+
+# Enviar os arquivos
+git push
