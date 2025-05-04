@@ -43,4 +43,7 @@ git branch <NOME>
 # Para visualizar as branchs
 git branch
 
+# Deletar uma branch
+git branch -d <NOME>
+
 # 
