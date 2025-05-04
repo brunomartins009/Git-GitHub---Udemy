@@ -46,4 +46,7 @@ git branch
 # Deletar uma branch
 git branch -d <NOME>
 
+# Mudar de branch
+git checkout -b <NOME>
+
 # 
