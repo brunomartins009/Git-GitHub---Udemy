@@ -36,3 +36,11 @@ criar um .gitignore
 
 # Resetar todas as mudanças feitas (Geralmente se usa a flag --hard)
 git reset
+
+# Para criar uma branch
+git branch <NOME>
+
+# Para visualizar as branchs
+git branch
+
+# 
