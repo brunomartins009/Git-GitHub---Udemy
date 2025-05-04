@@ -91,4 +91,5 @@ git push origin <NOME DA TAG>
 # Enviar todas as tags de uma vez
 git push origin --tags
 
-# 
+# Sempre que criar branch nova o git vai automaticamente associá-la ao remoto (origin)
+git config --global push.autoSetupRemote true
