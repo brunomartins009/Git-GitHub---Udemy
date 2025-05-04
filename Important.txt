@@ -51,3 +51,44 @@ git checkout -b <NOME>
 
 # Muda para outra branch
 git checkout <NOME>
+
+# Unir branchs
+git merge <NOME>
+
+# Salvar as modificações atuais e reseta o repositório para uma versão anterior
+git stash
+
+# Verificar os stashs criados
+git stash list
+
+# Recuperando um stash
+git stash apply <NUMERO DA STASH>
+
+# Mostrar as alterações de uma stash especifica
+git stash show -p <NUMERO DA STASH>
+
+# Remover stash
+git stash drop <NUMERO DA STASH>
+
+# Remover todas as stashs de uma vez
+git stash clear
+
+# Criar tags nas branchs (serve como um checkpoint)
+git tag -a <NOME> -m <MENSAGEM>
+
+# Lista as tags criadas
+git tag
+
+# Verificar uma tag
+git show <NOME DA TAG>
+
+# Trocar de tag
+git checkout <NOME DA TAG>
+
+# Eviar tag para o repositório
+git push origin <NOME DA TAG>
+
+# Enviar todas as tags de uma vez
+git push origin --tags
+
+# 
