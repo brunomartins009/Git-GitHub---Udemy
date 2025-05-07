@@ -1,6 +1,9 @@
 # Criar um repositório
 git init
 
+# Clonar um repositório
+git clone <RERPOSITORIO A SER CLONADO> <LOCAL ONDE O RERPOSITORIO VAI SER CLONADO>
+
 # Verificar arquivos modificados, novos e etc
 git status
 
@@ -93,3 +96,45 @@ git push origin --tags
 
 # Sempre que criar branch nova o git vai automaticamente associá-la ao remoto (origin)
 git config --global push.autoSetupRemote true
+
+# Mostrar branches e tags não reconhecidos
+git fetch
+
+# Utilizando remote para adicionar um repositório paar trackear
+git remote add origin <LINK>
+
+# Adicionar um submodulo
+git submodule add <RERPOSITORIO> <LOCAL>
+
+# Verificar os submodulos
+git submodule
+
+# Atualizar um submodulo (Necessário fazer um commit antes)
+git push --recurse-submodules=on-demand
+
+# Mostrar diversas informações ("q' para sair)
+git show
+
+# Mostra as diferenças de um branch, atual com o remoto
+git diff
+
+# Mostra as diferenças entre arquivos
+git diff <ARQUVO A> <ARQUVO B>
+
+# Mostra um log resumido ("q' para sair)
+git shortlog
+
+# Limpar arquivos untracked
+git clean
+
+# Exclui arquivos que o git julga não serem necessários
+git gc
+
+# Checar a integridade dos arquivos
+git fsck
+
+# Mostra todos os passos no repositório
+git reflog
+
+# Transformar repositório em um arquivos
+git archive --format-zip --output master_files.zip master
