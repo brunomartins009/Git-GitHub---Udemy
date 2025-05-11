@@ -138,3 +138,36 @@ git reflog
 
 # Transformar repositório em um arquivos
 git archive --format-zip --output master_files.zip master
+
+---------------------------------------------------------------
+##### MARKDOWN #######
+
+# Titulos
+(# -> h1; ## -> h2; ### -> h3; #### -> h4; ##### -> h5; ###### -> h6)
+
+# Negrito
+**texto** || __texto__
+
+# Italico
+*texto* || _texto_
+
+# Lista não ordenada
+* item
+
+# Lista ordenada
+1. item
+
+# Inserir imagem
+"[Texto Alt](link da imagem);
+
+# Inserir links
+[Texto do link](link)
+
+# Inserir código (especial do github)
+```codigo```
+
+# Inserir task list (especial do github)
+- [x] Tarefa concluida
+- [] Tarefa não concluida
+
+# 
