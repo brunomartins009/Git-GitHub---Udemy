@@ -4,30 +4,43 @@ This repository contains all the materials, exercises, and examples I worked on 
 ## 📘 About the Course
 The course provided a hands-on introduction to version control with Git and project collaboration using GitHub. It covered essential topics such as:
 
-Initializing and configuring Git repositories
+* Initializing and configuring Git repositories
 
-Staging, committing, and branching
+* Staging, committing, and branching
 
-Merging and resolving conflicts
+* Merging and resolving conflicts
 
-Working with remote repositories
+* Working with remote repositories
 
-Pull requests and collaboration workflows
+* Pull requests and collaboration workflows
 
-Best practices for commit messages and repository structure
+* Best practices for commit messages and repository structure
+
+* Markdown language
 
 ## 📁 What’s Inside
-Practice files for common Git commands
+* Practice files for common Git commands
 
-Branching and merging exercises
+* Branching and merging exercises
 
-GitHub collaboration examples
+* GitHub collaboration examples
 
-Realistic project scenarios simulating team workflows
+* Realistic project scenarios simulating team workflows
 
 ## 🧰 Tools Used
-Git (CLI)
+* Git (CLI)
 
-GitHub
+* GitHub
 
-VS Code with Git integration
+* VS Code with Git integration
+
+#
+Here you can find this certificate and others
+
+<div align="center">
+  
+<a href="https://github.com/brunomartins009/brunomartins009/tree/main/Certificados">
+  <img src="https://img.shields.io/badge/Certificates-blue" style="width: 100px;" />
+</a>
+
+</div>
